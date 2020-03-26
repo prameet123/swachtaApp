@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">swachtaApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="remark">Remark</string>
+    <string name="send">Submit</string>
+    <string name="email">Email</string>
+    <string name="name">Bin Number</string>
+    <string name="address">Address</string>
+    <string name="status">Status</string>
+    <string name="menu_home">Dashboard</string>
+    <string name="menu_gallery">Add new</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="status_prompt">Select a status</string>
+    <string name="login">Login</string>
+    <string name="userCode">User code</string>
+    <string name="password">Password</string>
+    <string-array name="status_arrays">
+        <item>Empty</item>
+        <item>Full</item>
+    </string-array>
+
+</resources>

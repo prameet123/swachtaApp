@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+
+        <TextView
+            android:id="@+id/textBin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingStart="3dip"
+            android:text="textBin"
+            style="@style/fontTitle"
+            android:drawableStart="@drawable/ic_bin"
+            android:drawablePadding="3dp"/>
+
+        <TextView
+            android:id="@+id/textAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textBin"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="1dp"
+            android:text="address"
+            android:drawableStart="@drawable/ic_pin"
+            android:drawablePadding="3dp"/>
+
+
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textAddress"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dip"
+            android:text="status"
+            android:drawableStart="@drawable/ic_litter"
+            android:drawablePadding="3dp"/>
+
+        <TextView
+            android:id="@+id/viewRemark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textStatus"
+            android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:paddingLeft="5dip"
+            android:text="@string/remark"
+            android:drawablePadding="3dp"/>
+        <TextView
+            android:id="@+id/textRemark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textStatus"
+            android:layout_toRightOf="@+id/viewRemark"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="5dip" />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="date" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
